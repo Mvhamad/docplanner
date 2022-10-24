@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+
+/*Tete*/
+.logoDocplanner{
+    width: 268px;
+    height: 33px;
+}
+
+.navbar li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+.navbar li:hover{
+    color: #00b39b;
+}
+.bopp{
+    display: flex;
+    justify-content: space-around;
+    color: silver;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: rgb(249, 249, 249);
+}
+.aus{
+    color: #00b39b;
+}
+
+/*fist section*/
+.fist{
+    padding-top:  120px;
+}
+.logo{
+    width: 40px; height: 39px;
+    display: block;
+    margin-left: 48%;
+}
+.title1{
+    color: #00b39b;
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.row p{
+    padding: 10px;
+    opacity: 0.7;
+}
+
+/*second section*/
+.all{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: white;
+}
+.part{
+    width: 320px;
+    height: 350px;
+    padding: 20px;
+}
+
+.patient{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #00b39b;
+    margin-right: 10px;
+} 
+.doctor{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #0080ff;
+}
+.clinic{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #1d334a;
+    margin-left: 10px;
+}
+
+select{
+    text-decoration: underline;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color:inherit;
+}
+option{
+    color: black;
+}
+.para{
+    font-size: xx-large;
+}
+
+/*third section*/
+.third{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.title2{
+    color: #00b39b;
+    text-align: center;
+    font-size: xx-large;
+}
+.logoss{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0;
+    list-style: none;
+    width: 67%;
+}
+
+a{
+    margin: 30px;
+    padding: 5px;
+    filter: grayscale(100%);
+}
+a:hover{
+    filter: none;
+}
+
+/*fourth section*/
+.fourth{
+    background-color: #afeeee;
+}
+.fourth h2{
+    color:#00b39b;
+}
+.tout{
+    display: flex;
+    justify-content: space-around;
+}
+.log4{
+    width: 400px; height: 400px;
+}
+.title3, .title4, .title2{
+    color: #00b39b;
+    font-size: xx-large;
+}
+.gauch{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.droite{
+    display: flex;
+    
+}
+.p1, .p2{
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+.p1{
+    margin-top: 3em;
+}
+
+.bubble1_1, .bubble1_2, .bubble2_1, .bubble2_2{
+    width: 230px; height: 250px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+
+/*fifth section*/
+.fifth{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+header{
+    text-align: center;
+}
+.father_box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 260px;
+}
+.father_box > div{
+    width: 43.7vh; 
+    height: 48vh;
+    display: block;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    margin: 10px;
+}
+.father_box img{
+    border-radius: 10px 10px 0 0;
+}
+.father_box div .btn{
+    width: 170px; height: 30px;
+    padding: 0;
+    font-size: smaller;
+}
+.bas{
+    display: flex;
+    justify-content: space-around;
+    opacity: 0.8;
+}
+
+/*join us*/
+.joinus{
+    text-align: center;
+    margin: 70px;
+    padding: 0 300px;
+}
+
+footer{
+    text-align: center;
+    opacity: 0.6;
+}
+span{
+    color: blue;
+    cursor: pointer;
+}
+span:hover{
+    text-decoration: underline;
+}
